@@ -1,0 +1,71 @@
+﻿@model IEnumerable<dominio.Disco>
+
+@{
+    ViewData["Title"] = "Listado Disco";
+}
+
+<h1>Discos</h1>
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Crear nuevo</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+           @*  <th>
+                @Html.DisplayNameFor(model => model.IdDisco)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+          @*   <th>
+                @Html.DisplayNameFor(model => model.fechaDeLanzamiento)
+            </th> *@
+           @*  <th>
+                @Html.DisplayNameFor(model => model.CantidadDeCanciones)
+            </th> *@
+            <th>
+             @Html.DisplayNameFor(model => model.UrlImagenTapa)
+            </th>
+            <th>Genero</th>
+            <th>
+                @Html.DisplayNameFor(model => model.Activo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+          @*   <td>
+                @Html.DisplayFor(modelItem => item.IdDisco)
+            </td> *@
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+          @*   <td>
+                @Html.DisplayFor(modelItem => item.fechaDeLanzamiento)
+            </td> *@
+          @*   <td>
+                @Html.DisplayFor(modelItem => item.CantidadDeCanciones)
+            </td> *@
+            <td>
+                @* @Html.DisplayFor(modelItem => item.UrlImagenTapa) *@
+
+                    <img src="@item.UrlImagenTapa" alt="@item.Nombre" height="50" />
+
+            </td>
+             @* para tipo de datos complejos se puede solucionar de la siguiente forma *@
+            <td> @item.Genero.Descripcion </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Activo)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new {  id=item.IdDisco }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
