@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|c:\\users\\usuario\\desktop\\c4\\mvc\\discos-web\\discos-mvc\\views\\discos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|solutionrelative:discos-mvc\\views\\discos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1C665EB-60C7-4BB1-B9C9-C58DEA177EF2}|negocio\\negocio.csproj|C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1C665EB-60C7-4BB1-B9C9-C58DEA177EF2}|negocio\\negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|c:\\users\\usuario\\desktop\\c4\\mvc\\discos-web\\discos-mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|solutionrelative:discos-mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED445F30-D9F8-4FFF-B2FF-C9C2E7B6E557}|dominio\\dominio.csproj|c:\\users\\usuario\\desktop\\c4\\mvc\\discos-web\\dominio\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED445F30-D9F8-4FFF-B2FF-C9C2E7B6E557}|dominio\\dominio.csproj|solutionrelative:dominio\\disco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|c:\\users\\usuario\\desktop\\c4\\mvc\\discos-web\\discos-mvc\\controllers\\discoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|c:\\users\\admin\\desktop\\csharp4\\mvc\\discos\\discos-web\\discos-mvc\\controllers\\discoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|solutionrelative:discos-mvc\\controllers\\discoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|c:\\users\\admin\\desktop\\csharp4\\mvc\\discos\\discos-web\\discos-mvc\\views\\discos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|solutionrelative:discos-mvc\\views\\discos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|c:\\users\\admin\\desktop\\csharp4\\mvc\\discos\\discos-web\\discos-mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{14863E7F-5894-4879-A667-C2CAC505AE33}|Discos-mvc\\Discos-mvc.csproj|solutionrelative:discos-mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Disco.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\dominio\\Disco.cs",
-              "RelativeDocumentMoniker": "dominio\\Disco.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\dominio\\Disco.cs",
-              "RelativeToolTip": "dominio\\Disco.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "DiscosController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\Controllers\\DiscosController.cs",
+              "RelativeDocumentMoniker": "Discos-mvc\\Controllers\\DiscosController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\Controllers\\DiscosController.cs",
+              "RelativeToolTip": "Discos-mvc\\Controllers\\DiscosController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAxwCQAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T03:11:21.404Z",
+              "WhenOpened": "2026-01-08T00:46:13.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Discos-mvc\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Discos-mvc\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABcAAAAAAAAAA==",
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Discos-mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Discos-mvc\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T02:41:41.45Z",
+              "WhenOpened": "2026-01-07T23:24:31.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccesoDatos.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\negocio\\AccesoDatos.cs",
-              "RelativeDocumentMoniker": "negocio\\AccesoDatos.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\negocio\\AccesoDatos.cs",
-              "RelativeToolTip": "negocio\\AccesoDatos.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T00:09:48.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\Views\\Discos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Discos-mvc\\Views\\Discos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\Views\\Discos\\Index.cshtml",
-              "RelativeToolTip": "Discos-mvc\\Views\\Discos\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAABQAAAAAAAAAA==",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\Views\\Discos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Discos-mvc\\Views\\Discos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\Views\\Discos\\Create.cshtml",
+              "RelativeToolTip": "Discos-mvc\\Views\\Discos\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-07T00:00:25.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DiscosController.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\Controllers\\DiscosController.cs",
-              "RelativeDocumentMoniker": "Discos-mvc\\Controllers\\DiscosController.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\Controllers\\DiscosController.cs",
-              "RelativeToolTip": "Discos-mvc\\Controllers\\DiscosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T23:57:04.814Z",
+              "WhenOpened": "2026-01-07T23:10:29.904Z",
               "EditorCaption": ""
             }
           ]

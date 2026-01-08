@@ -22,3 +22,9 @@ C:\Users\USUARIO\Desktop\C4\mvc\Discos-web\dominio\obj\Debug\dominio.csproj.Asse
 C:\Users\USUARIO\Desktop\C4\mvc\Discos-web\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\USUARIO\Desktop\C4\mvc\Discos-web\dominio\obj\Debug\dominio.dll
 C:\Users\USUARIO\Desktop\C4\mvc\Discos-web\dominio\obj\Debug\dominio.pdb
+C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\dominio\bin\Debug\dominio.dll
+C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\dominio\bin\Debug\dominio.pdb
+C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\dominio\obj\Debug\dominio.dll
+C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\dominio\obj\Debug\dominio.pdb

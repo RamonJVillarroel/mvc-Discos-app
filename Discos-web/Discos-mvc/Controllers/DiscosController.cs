@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using dominio;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using negocio;
 namespace Discos_mvc.Controllers
@@ -27,10 +28,13 @@ namespace Discos_mvc.Controllers
         // POST: DiscosController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        //esto se va a modificar para que pueda recibir realmente lo que queremos este form collectionb es una colecion de elemnetos. Porque sabemos en este caso lo que es.
+        public ActionResult Create(Disco disco)
         {
             try
             {
+                //Para terminar el alta terminar el alta se tiene que utilizar la clase de negocio.
+                NengocioDisco negocio = new 
                 return RedirectToAction(nameof(Index));
             }
             catch
