@@ -34,7 +34,12 @@ namespace Discos_mvc.Controllers
             try
             {
                 //Para terminar el alta terminar el alta se tiene que utilizar la clase de negocio.
-                NengocioDisco negocio = new 
+                //Agregacion de productos
+                DiscoNegocio negocioDisco = new DiscoNegocio();
+                //Hacer que esto sea dinamico
+                disco.Genero = new Genero { Id = 1 };
+                disco.Plataforma = new Plataforma { Id = 2 };
+                negocioDisco.agregar(disco);
                 return RedirectToAction(nameof(Index));
             }
             catch

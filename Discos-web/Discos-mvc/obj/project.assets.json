@@ -7665,23 +7665,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\Discos-mvc.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\Discos-mvc.csproj",
       "projectName": "Discos-mvc",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\Discos-mvc.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\Discos-mvc\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\Discos-mvc.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\Discos-mvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7696,11 +7696,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\dominio\\dominio.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\dominio\\dominio.csproj"
+            "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\dominio\\dominio.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\dominio\\dominio.csproj"
             },
-            "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\negocio\\negocio.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\CSHARP4\\MVC\\discos\\Discos-web\\negocio\\negocio.csproj"
+            "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\negocio\\negocio.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Desktop\\C4\\mvc\\Discos-web\\negocio\\negocio.csproj"
             }
           }
         }
@@ -7753,7 +7753,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
