@@ -739,3 +739,5 @@ C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\Discos-mvc\obj\Debug\net9.0
 C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\Discos-mvc\obj\Debug\net9.0\Discos-mvc.genruntimeconfig.cache
 C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\Discos-mvc\obj\Debug\net9.0\ref\Discos-mvc.dll
 C:\Users\USUARIO\Desktop\C4\mvc\Discos-web\Discos-mvc\obj\Debug\net9.0\Discos-mvc.sourcelink.json
+C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\Discos-mvc\obj\Debug\net9.0\Discos-mvc.sourcelink.json
+C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\Discos-mvc\bin\Debug\net9.0\Microsoft.VisualStudio.Setup.Configuration.Interop.dll

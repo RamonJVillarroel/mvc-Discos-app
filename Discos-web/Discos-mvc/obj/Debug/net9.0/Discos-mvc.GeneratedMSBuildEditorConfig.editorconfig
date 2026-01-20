@@ -17,53 +17,65 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Discos_mvc
 build_property.RootNamespace = Discos_mvc
-build_property.ProjectDir = C:\Users\USUARIO\Desktop\C4\mvc\Discos-web\Discos-mvc\
+build_property.ProjectDir = C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\Discos-mvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USUARIO\Desktop\C4\mvc\Discos-web\Discos-mvc
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\CSHARP4\MVC\discos\Discos-web\Discos-mvc
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/Discos/Create.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Discos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/Discos/Index.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Discos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Discos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Discos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Discos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY29zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/Home/Index.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/Home/ListaDiscos.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Home/ListaDiscos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMaXN0YURpc2Nvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/C4/mvc/Discos-web/Discos-mvc/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Desktop/CSHARP4/MVC/discos/Discos-web/Discos-mvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-evnr2mqjll

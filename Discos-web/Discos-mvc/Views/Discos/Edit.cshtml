@@ -1,22 +1,22 @@
 ﻿@model dominio.Disco
 
 @{
-    ViewData["Title"] = "Crear nuevo Disco";
+    ViewData["Title"] = "Editar Disco";
 }
 
-<h1>Crear nuevo Disco</h1>
+<h1>Pagina de edicion</h1>
 
 <h4>Disco</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-          @*   <div class="form-group">
+            <div class="form-group">
                 <label asp-for="IdDisco" class="control-label"></label>
                 <input asp-for="IdDisco" class="form-control" />
                 <span asp-validation-for="IdDisco" class="text-danger"></span>
-            </div> *@
+            </div>
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
                 <input asp-for="Nombre" class="form-control" />
@@ -37,34 +37,27 @@
                 <input asp-for="UrlImagenTapa" class="form-control" />
                 <span asp-validation-for="UrlImagenTapa" class="text-danger"></span>
             </div>
-          @*   <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Activo" /> @Html.DisplayNameFor(model => model.Activo)
-                </label>
-            </div> *@
-            @*   completado de desplegables *@
 
             <div class="form-group">
                 <label>Genero</label>
-                <select class="form-select" asp-for="Genero.Id" asp-items="ViewBag.Genero"></select>
+                <select class="form-select" asp-for="Genero.Id" asp-items="ViewBag.Generos"></select>
             </div>
 
             <div class="form-group">
                 <label>Plataforma</label>
-                <select class="form-select" asp-for="Plataforma.Id" asp-items="ViewBag.Plataforma"></select>
+                <select class="form-select" asp-for="Plataforma.Id" asp-items="ViewBag.Plataformas"></select>
             </div>
-
             <div class="form-group">
-                <input type="submit" value="Crear disco" class="btn btn-primary" />
+                <input type="submit" value="Guardar" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">volver atras</a>
+    <a asp-action="Index">Volver atras</a>
 </div>
-@* asi se añaden scripts generales a todas las paginas *@
+
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

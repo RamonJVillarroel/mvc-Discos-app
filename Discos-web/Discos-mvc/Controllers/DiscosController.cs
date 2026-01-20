@@ -1,27 +1,52 @@
 ﻿using dominio;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using negocio;
 namespace Discos_mvc.Controllers
 {
     public class DiscosController : Controller
     {
         // GET: DiscosController
-        public ActionResult Index()
+        public ActionResult Index(string filtro)
         {
             DiscoNegocio negocioDisco = new DiscoNegocio();
-            return View(negocioDisco.Listar());
+            var discos = negocioDisco.Listar();
+
+            if (!string.IsNullOrEmpty(filtro))
+            {
+                discos = discos.FindAll(d => d.Nombre.Contains(filtro));
+            }
+
+            return View(discos);
         }
 
         // GET: DiscosController/Details/5
         public ActionResult Details(int id)
         {
-            return View();
+            PlataformaNegocio negocioPlataforma = new PlataformaNegocio();
+            DiscoNegocio discoNegocio = new DiscoNegocio();
+
+            var disco = discoNegocio.Listar().Find(d => d.IdDisco == id);
+
+            ViewBag.Plataformas = new SelectList(negocioPlataforma.Listar(), "Id", "Descripcion");
+
+
+            GenerosNegocio negocioGenero = new GenerosNegocio();
+            ViewBag.Generos = new SelectList(negocioGenero.Listar(), "Id", "Descripcion");
+            return View(disco);
         }
 
         // GET: DiscosController/Create
+        // Listado de desplegables
         public ActionResult Create()
         {
+            //recordar confirgurar las sobrecargas
+            PlataformaNegocio negocioPlataforma = new PlataformaNegocio();
+            ViewBag.Plataforma = new SelectList(negocioPlataforma.Listar(), "Id", "Descripcion");
+
+            GenerosNegocio negocioGenero = new GenerosNegocio();
+            ViewBag.Genero = new SelectList(negocioGenero.Listar(), "Id", "Descripcion");
             return View();
         }
 
@@ -37,8 +62,8 @@ namespace Discos_mvc.Controllers
                 //Agregacion de productos
                 DiscoNegocio negocioDisco = new DiscoNegocio();
                 //Hacer que esto sea dinamico
-                disco.Genero = new Genero { Id = 1 };
-                disco.Plataforma = new Plataforma { Id = 2 };
+                //disco.Genero = new Genero { Id = 1 };
+                //disco.Plataforma = new Plataforma { Id = 2 };
                 negocioDisco.agregar(disco);
                 return RedirectToAction(nameof(Index));
             }
@@ -51,16 +76,28 @@ namespace Discos_mvc.Controllers
         // GET: DiscosController/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            PlataformaNegocio negocioPlataforma = new PlataformaNegocio();
+            DiscoNegocio discoNegocio = new DiscoNegocio();
+
+            var disco = discoNegocio.Listar().Find(d => d.IdDisco == id);
+
+            ViewBag.Plataformas = new SelectList(negocioPlataforma.Listar(), "Id", "Descripcion");
+
+
+            GenerosNegocio negocioGenero = new GenerosNegocio();
+            ViewBag.Generos = new SelectList(negocioGenero.Listar(), "Id", "Descripcion");
+            return View(disco);
         }
 
         // POST: DiscosController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public ActionResult Edit(int id, Disco disco)
         {
             try
             {
+                DiscoNegocio discoNegocio = new DiscoNegocio();
+                discoNegocio.modificar(disco);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -72,16 +109,21 @@ namespace Discos_mvc.Controllers
         // GET: DiscosController/Delete/5
         public ActionResult Delete(int id)
         {
-            return View();
+            DiscoNegocio discoNegocio = new DiscoNegocio();
+
+            var disco = discoNegocio.Listar().Find(d => d.IdDisco == id);
+            return View(disco);
         }
 
         // POST: DiscosController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(int id,Disco disco)
         {
             try
             {
+                DiscoNegocio discoNegocio = new DiscoNegocio();
+                discoNegocio.eliminar(id);
                 return RedirectToAction(nameof(Index));
             }
             catch
